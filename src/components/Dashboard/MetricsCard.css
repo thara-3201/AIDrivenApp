@@ -1,0 +1,47 @@
+.metrics-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metrics-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metrics-card-title {
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.metrics-card-icon {
+  font-size: 1.5rem;
+}
+
+.metrics-card-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.metrics-card-trend {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.metrics-card-trend-up {
+  color: #059669;
+}
+
+.metrics-card-trend-down {
+  color: #dc2626;
+}
+
+.metrics-card-trend-icon {
+  font-weight: 700;
+}
